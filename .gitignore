@@ -1,3 +1,10 @@
 /proxy/node_modules
 /header/.env
+/header/coverage
+/header/node_modules
+/header/client/dist/bundle.js
+
 /comments/.env
+/comments/coverage
+/comments/node_modules
+/comments/client/dist/bundle.js
