@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Shoedidas Attempt 1</title>
+</head>
+
+<body>
+  <div id="header"></div>
+  <div id="reviews"></div>
+  <div id="footer"></div>
+
+  <!-- <div id="Related"></div>
+  <div id="Reviews"></div> -->
+  <script src="/lib/react.development.js"></script>
+  <script src="/lib/react-dom.development.js"></script>
+  <script src="http://localhost:3500/bundle.js"></script>
+  <script src="http://localhost:3003/bundle.js"></script>
+  <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+  <script>
+    ReactDOM.render(
+      React.createElement(Header),
+      document.getElementById('header')
+    );
+    ReactDOM.render(
+      React.createElement(ReviewsFooter, { section: 'reviews' }),
+      document.getElementById('reviews')
+    );
+  </script>
+</body>
+
+</html>
